@@ -13,6 +13,7 @@ namespace Decorator
 
         private void AddedBehavior()
         {
+            Console.WriteLine("Added behavior executed");
         }
     }
 }
