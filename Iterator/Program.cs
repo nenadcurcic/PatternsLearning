@@ -2,7 +2,7 @@
 
 namespace Iterator
 {
-    internal class Program
+    static internal class Program
     {
         private static void Main(string[] args)
         {
