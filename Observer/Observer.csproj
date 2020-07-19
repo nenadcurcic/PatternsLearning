@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteSubscriber.cs" />
+    <Compile Include="ConcretePublisher.cs" />
+    <Compile Include="Subscriber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Publisher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

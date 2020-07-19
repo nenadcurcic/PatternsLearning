@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{48176AAE-8951-482A-B7BC-9AE9112A5263}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{F1707295-59CC-4E7D-9627-063D073650C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{48176AAE-8951-482A-B7BC-9AE9112A5263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48176AAE-8951-482A-B7BC-9AE9112A5263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48176AAE-8951-482A-B7BC-9AE9112A5263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1707295-59CC-4E7D-9627-063D073650C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1707295-59CC-4E7D-9627-063D073650C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1707295-59CC-4E7D-9627-063D073650C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1707295-59CC-4E7D-9627-063D073650C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
