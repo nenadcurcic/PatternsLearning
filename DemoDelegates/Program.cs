@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DemoDelegates
 {
@@ -27,7 +28,30 @@ namespace DemoDelegates
 
             message("nenad");
 
+            //Predicate, delegate with generic input params and return bool
+
+            List<User> users = PopulateListusers();
+
+            Predicate<User> adUser = (x) => x.Name.Contains("ad");
+
+            User concreteUser = users.Find(adUser);
+
+            Console.WriteLine(concreteUser.ToString());
+
             Console.ReadKey();
+        }
+
+        private static List<User> PopulateListusers()
+        {
+            List<User> resultList = new List<User>()
+            {
+                new User(){Id = 1, Name = "Nenad", ShureName = "Curcic"},
+                new User(){Id = 2, Name = "Marko", ShureName = "Markovic"},
+                new User(){Id = 3, Name = "Janko", ShureName = "Jankovic"},
+                new User(){Id = 4, Name = "Zdravko", ShureName = "Jankovic"},
+            };
+
+            return resultList;
         }
 
         //expression body format
@@ -39,5 +63,18 @@ namespace DemoDelegates
             y += 0.2;
             return x + y;
         }
+
+        internal class User
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public string ShureName { get; set; }
+
+            public override string ToString()
+            {
+                return $"Id: {Id}, name: {Name}, shurename: {ShureName}";
+            }
+        }
+
     }
 }
