@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGenerics", "GenericsDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExtensionMethods", "ExtensionMethods\DemoExtensionMethods.csproj", "{33C519DD-E6BF-4E9F-A740-78C83E61641C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDelegates", "DemoDelegates\DemoDelegates.csproj", "{878CFDB1-3798-4CF0-8544-772C82B2035C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{33C519DD-E6BF-4E9F-A740-78C83E61641C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33C519DD-E6BF-4E9F-A740-78C83E61641C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33C519DD-E6BF-4E9F-A740-78C83E61641C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878CFDB1-3798-4CF0-8544-772C82B2035C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878CFDB1-3798-4CF0-8544-772C82B2035C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878CFDB1-3798-4CF0-8544-772C82B2035C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878CFDB1-3798-4CF0-8544-772C82B2035C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
