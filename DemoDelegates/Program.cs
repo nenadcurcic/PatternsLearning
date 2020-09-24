@@ -28,7 +28,7 @@ namespace DemoDelegates
 
             message("nenad");
 
-            //Predicate, delegate with generic input params and return bool
+            //Predicate, delegate with generic input params and return bool, practicaly Func<T, bool>
 
             List<User> users = PopulateListusers();
 
