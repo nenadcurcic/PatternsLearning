@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace DateTimeTrials
 {
-    internal class Program
+    internal static class Program
     {
         private static void Main(string[] args)
         {
@@ -31,6 +31,8 @@ namespace DateTimeTrials
             //Console.WriteLine(myDate.Date.ToString("dd.MM.yyyy"));
             //Console.WriteLine(myDate.Date.ToString("MM/dd/yyyy"));
             //Console.WriteLine(myDate.Date.ToString("yyyy/MM/dd"));
+
+           
             Console.ReadKey();
         }
     }
