@@ -4,7 +4,7 @@ namespace Mediator
 {
     internal static class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
             ConcreteMediator m = new ConcreteMediator();
 

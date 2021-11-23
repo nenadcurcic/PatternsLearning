@@ -23,7 +23,6 @@
                 _colleague2.Notify(message);
             }
             else
-
             {
                 _colleague1.Notify(message);
             }
